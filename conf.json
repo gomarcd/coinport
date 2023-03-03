@@ -1,0 +1,17 @@
+{
+  "spreadsheet": {
+      "filepath": "crypto.xlsx"
+  },
+  "stats": {
+    "currency": "usd"
+  },
+  "modules": {
+    "tikr": true,
+    "price": true,
+    "1d": true,
+    "1w": true,
+    "balance": true,
+    "value": true,
+    "allocation": true
+  }
+}
