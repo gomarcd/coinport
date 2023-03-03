@@ -76,6 +76,8 @@ while True:
                 price_7d.update({data['symbol']:data['price_change_percentage_7d_in_currency']})
 
             def colorize_percent(num):
+                if num is None:
+                    return "N/A"
                 color = fg.red if num < 0 else fg(10,255,10)
                 return f'{color}{num:.2f}%' + fg.rs
 
