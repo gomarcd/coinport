@@ -31,7 +31,7 @@ Depending on your environment, you may need to type "pip3" instead of "pip".
 
 LibreOffice and MS Office formats are supported. By default, the script will look for the included file, `crypto.xlsx`. You can point it to your file of choice by editing `conf.json` accordingly. When adding or removing coins from your spreadsheet, be sure to use the cryptocurrency name (ie, "Bitcoin", "Bitcoin Cash", "Synthetix Network Token"). The ticker/symbol is not used here because there are many duplicates. You may also specify the currency and add/remove columns in the conf file:
 
-![](https://github.com/zcyph/coinport/blob/main/screenshot_conf.png)
+![screenshot](https://github.com/zcyph/coinport/blob/main/screenshot_conf.png)
 
 Download ZIP above or just git clone the repo:
 
@@ -48,4 +48,4 @@ Run the script:
 The script will stay running and automatically refresh prices and changes to the configuration. To stop the script, press `CTRL-C` or close the terminal window.
 
 
-![](https://github.com/zcyph/coinport/blob/main/screenshot.png)
+![screenshot](https://github.com/zcyph/coinport/blob/main/screenshot.png)
