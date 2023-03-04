@@ -11,21 +11,14 @@ This is a Python script, so make sure you have Python installed. This was tested
 
 A few things are required in order to run this script. After installing Python, install them as follows. While not required, it is a good practice to also do this within a virtual environment:
 
-`pip install pycoingecko`
+`pip install pycoingecko pandas tabulate xlrd pyexcel_ods openpyxl sty`
 
-`pip install pandas`
+Depending on your environment, you may need to type `python3` and `pip3` instead of `python` or `pip`.
 
-`pip install tabulate`
+## Windows
 
-`pip install xlrd`
+Some Windows 11 users have noticed that simply git cloning the repo and running the script resulted in errors about `.deleteme logic` and permissions errors. If that happens, try making sure your terminal is launched with *Run as Administrator* before following the steps, and be sure to also do `python -m pip install --upgrade pip`, then install the dependencies.
 
-`pip install pyexcel_ods`
-
-`pip install openpyxl`
-
-`pip install sty`
-
-Depending on your environment, you may need to type "pip3" instead of "pip".
 
 ## Usage
 
