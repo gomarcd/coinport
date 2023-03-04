@@ -7,9 +7,11 @@ A minimalist cryptocurrency & portfolio tracker written in Python using the Coin
 
 This is a Python script, so make sure you have Python installed. This was tested with Python 3.9 in Linux, Mac and Windows.
 
-**Dependencies**
+Depending on your environment, you may need to run the commands below using `python3` instead of `python`, or `pip3` instead of `pip`.
 
-A few things are required in order to run this script. After installing Python, install them as follows. While not required, it is a good practice to also do this within a virtual environment.
+**Virtual Environment & Dependencies**
+
+It is a good practice to do this within a virtual environment.
 
 First git clone the repo:
 
@@ -18,6 +20,10 @@ First git clone the repo:
 Change into the directory:
 
 `cd coinport`
+
+Make sure you have `venv` installed:
+
+`sudo apt install python-venv`
 
 Create a virtual environment:
 
@@ -31,12 +37,9 @@ Now install the dependencies:
 
 `pip install -r requirements.txt`
 
-Note: depending on your environment, you may need to type `python3` and `pip3` instead of `python` or `pip`.
-
 ## Windows
 
-Some Windows 11 users have noticed that simply git cloning the repo and running the script resulted in errors about `.deleteme logic` and permissions errors. If that happens, try making sure your terminal is launched with *Run as Administrator* before following the steps, and be sure to also do `python -m pip install --upgrade pip`, then install the dependencies.
-
+Some Windows 11 users have experienced `.deleteme logic` and permissions errors. To avoid this, launch your terminal with *Run as Administrator* before following the steps, and be sure to do `python -m pip install --upgrade pip`, then install the dependencies.
 
 ## Usage
 
